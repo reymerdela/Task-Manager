@@ -60,7 +60,7 @@
 		"typescript": "~5.9.2"
 	},
 	"lint-staged": {
-		"*.{ts,tsx,js,jsx}": [
+		"*.{ts,tsx,js,jsx,json}": [
 			"biome check --write --no-errors-on-unmatched"
 		]
 	},
